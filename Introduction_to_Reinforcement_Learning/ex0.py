@@ -99,7 +99,7 @@ def simulate(state: Tuple[int, int], action: Action):
         action_taken = random.choice(choice_2) if round(np.random.random(),2) < 0.20 else action_taken
 
     # calculate the next state and reward, given state and action_taken
-    # You can use actions_to_dxdy() to calculate the next state
+    # using actions_to_dxdy() to calculate the next state
     # Check that the next state is within boundaries and is not a wall
     # One possible way to work with boundaries is to add a boundary wall around environment and
     # simply check whether the next state is a wall
