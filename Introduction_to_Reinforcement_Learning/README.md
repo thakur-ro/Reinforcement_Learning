@@ -1,7 +1,7 @@
 # Exercise 0: An Invitation to Reinforcement Learning
 
 ## Setup
-Virtual Environment Folder is provided in the submission (~/ex0/.venv)
+Virtual Environment Folder is provided in the submission (/ex0/.venv)
 To use provided virtual environment which includes all packages necessary simply run, (~ indicates path to the submission folder)
 ```bash
 source ~/ex0/.venv/bin/activate
