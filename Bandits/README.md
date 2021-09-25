@@ -2,7 +2,8 @@
 Q4: 10-armed Bandit TestBed from Sutton and Barto<br>
 Q6: Epsilon Greedy policy with plots for cumulative rewards and % of optimal action taken at each step<br>
 Q7: Comparison between Epsilon Greedy and UCB learning policies. We also compare these policies with optimistic action-value<br>
-estimate 
+estimate<br>
+PDF file contains some mathematical explanations of problems from Sutton and Barto
 ## Setup
 
 * Python 3.5+ (for type hints)<br>
