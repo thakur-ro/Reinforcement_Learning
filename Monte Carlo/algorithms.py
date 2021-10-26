@@ -87,8 +87,7 @@ def on_policy_mc_control_es(
     policy = create_blackjack_policy(Q)
 
     for _ in trange(num_episodes, desc="Episode"):
-        # TODO Q3b
-        # Note there is no need to update the policy here directly.
+        # there is no need to update the policy here directly.
         # By updating Q, the policy will automatically be updated.
         G = 0
         episode = generate_episode(env,policy,True)
